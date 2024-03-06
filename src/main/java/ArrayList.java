@@ -53,9 +53,9 @@ public class ArrayList<T>{
         if(indice < 0 || indice >= this.array.length){
             throw  new ArrayIndexOutOfBoundsException("Indice informado é maior ou menor que a quantidade de posições no vetor");
         }
-
-
     }
+
+
 
 
 
