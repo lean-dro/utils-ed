@@ -9,11 +9,15 @@
             <name>GitHub OWNER Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/lean-dro/utils-ed</url>
         </repository>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <groupId>leandro</groupId>
     <artifactId>utils-ed</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

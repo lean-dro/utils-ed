@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ArrayList<T>{
-    private Object array[];
+    private Object[] array;
 
     public ArrayList(){
         array = new Object[0];
@@ -44,7 +44,7 @@ public class ArrayList<T>{
     public void show(){
         Arrays.stream(this.array).forEach(v->{
             System.out.print(v);
-            if(v==this.array[size()-1]) System.out.print("");
+            if(v.equals(array[size()-1])) System.out.print("");
             else System.out.print(", ");
         });
     }
